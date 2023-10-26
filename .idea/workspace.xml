@@ -5,27 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8f83af-636f-4e55-8203-bd7ace6292eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/java/buuhq/quarkus/module/api/SampleApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/META-INF/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/src/main/resources/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/buuhq/quarkus/module/sample/adapters/SamplePersistenceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/buuhq/quarkus/module/sample/application/port/in/SampleUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/buuhq/quarkus/module/sample/application/port/out/SamplePersistencePort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/buuhq/quarkus/module/sample/application/service/SampleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/buuhq/quarkus/module/sample/domain/mapping/MyEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/application/src/main/java/buuhq/quarkus/module/sample/domain/models/MyEntityModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/buuhq/quarkus/module/configuration/payloads/ResponseProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/configuration/src/main/java/buuhq/quarkus/module/configuration/payloads/ResponseWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/infrastructure/src/main/java/buuhq/quarkus/module/infrastructure/persistence/entities/MyEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/infrastructure/src/main/java/buuhq/quarkus/module/infrastructure/persistence/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/infrastructure/src/main/java/buuhq/quarkus/module/infrastructure/persistence/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/infrastructure/src/main/java/buuhq/quarkus/module/infrastructure/persistence/repositories/MyEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/infrastructure/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/buuhq/quarkus/module/shared/enums/EAuthType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/building-blocks/shared/src/main/java/buuhq/quarkus/module/shared/enums/ERole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0caf62b-466c-420f-a2fd-5e8efc42676c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b0caf62b-466c-420f-a2fd-5e8efc42676c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/kogito-dmn-sample/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/kogito-dmn-sample/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/kogito-dmn-sample/src/main/java/adapter/in/SampleApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/kogito-dmn-sample/src/main/java/domain/entities/Branch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/kogito-dmn-sample/src/main/java/domain/entities/Company.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/kogito-dmn-sample/src/main/resources/META-INF/resources/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/kogito-dmn-sample/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/quarkus-rest-sample/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/quarkus-rest-sample/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/quarkus-rest-sample/src/main/java/adapter/in/SampleApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/quarkus-rest-sample/src/main/resources/META-INF/resources/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/quarkus-rest-sample/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-blocks/contracts/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-blocks/contracts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/rest-reactive-sample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/rest-reactive-sample/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/application/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/building-blocks/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/building-blocks/shared/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/building-blocks/shared/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/building-blocks/shared/src/main/java/DTOs/SampleDto.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,7 +56,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/.sdkman/candidates/maven/3.9.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Portables/apache-maven-3.9.2" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -63,33 +73,106 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "graalvm-17",
-    "last_opened_file_path": "/Users/kitaro/private-area/code-samples/quarkus-multi-modules-sample",
+    "last_opened_file_path": "E:/PrivatePlace/Code-Samples/quarkus-multi-modules-sample/apps/rest-reactive-sample/src/main/resources/META-INF/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
-      "mysql"
+      "mysql",
+      "postgresql"
     ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WorkingPlace\TpbFico\DevArea\quarkus-multi-modules-sample\apps\kogito-dmn-sample\src\main\resources\META-INF\resources" />
-      <recent name="E:\WorkingPlace\TpbFico\DevArea\quarkus-multi-modules-sample\apps\kogito-dmn-sample\src\main\resources" />
-      <recent name="E:\WorkingPlace\TpbFico\DevArea\quarkus-multi-modules-sample\apps\quarkus-rest-sample\src\main\resources\META-INF\resources" />
-      <recent name="E:\WorkingPlace\TpbFico\DevArea\quarkus-multi-modules-sample\apps\quarkus-rest-sample\src\main\resources" />
+      <recent name="E:\PrivatePlace\Code-Samples\quarkus-multi-modules-sample\apps\rest-reactive-sample\src\main\resources\META-INF\resources" />
+      <recent name="E:\PrivatePlace\Code-Samples\quarkus-multi-modules-sample\building-blocks\infrastructure\src\main\resources" />
+      <recent name="E:\PrivatePlace\Code-Samples\quarkus-multi-modules-sample\building-blocks\infrastructure\src\main\java\buuhq\quarkus\module\infrastructure\persistence\entities" />
+      <recent name="E:\PrivatePlace\Code-Samples\quarkus-multi-modules-sample\building-blocks\shared\src\main\java\buuhq\quarkus\module\shared" />
+      <recent name="E:\PrivatePlace\Code-Samples\quarkus-multi-modules-sample\apps\rest-reactive-sample\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PrivatePlace\Code-Samples\quarkus-multi-modules-sample\apps\rest-reactive-sample\src\main\resources\META-INF\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="buuhq.quarkus.module.configuration.payloads" />
+      <recent name="buuhq.quarkus.module.infrastructure.persistence.entities" />
     </key>
   </component>
   <component name="RunManager" selected="Quarkus.quarkus-rest-sample">
+    <configuration name="application" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="application" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/building-blocks/application" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>false</emulateTerminal>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="configuration" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="configuration" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/building-blocks/configuration" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>false</emulateTerminal>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="contracts" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
       <module name="contracts" />
       <method v="2">
@@ -98,6 +181,32 @@
     </configuration>
     <configuration name="infrastructure" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
       <module name="infrastructure" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/building-blocks/infrastructure" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>false</emulateTerminal>
+      </QsMavenRunConfiguration>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,8 +223,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="rest-reactive-sample" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="rest-reactive-sample" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/apps/rest-reactive-sample" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>false</emulateTerminal>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="shared" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
       <module name="shared" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$/building-blocks/shared" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>false</emulateTerminal>
+      </QsMavenRunConfiguration>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,6 +301,9 @@
       <workItem from="1692613712751" duration="249000" />
       <workItem from="1692614174279" duration="6039000" />
       <workItem from="1698247286696" duration="4356000" />
+      <workItem from="1698289768721" duration="4115000" />
+      <workItem from="1698294299296" duration="570000" />
+      <workItem from="1698294936627" duration="5362000" />
     </task>
     <servers />
   </component>

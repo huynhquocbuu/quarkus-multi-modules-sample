@@ -1,5 +1,6 @@
 logs/
 target/
+deployments/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
